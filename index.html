@@ -27,6 +27,14 @@
         /* 見出しの下線を、背景に馴染む少し明るい灰色にします */
         border-bottom: 1px solid #444444;
     }
+    
+    /* h3とstrongのスタイルを追加 */
+    h3 {
+        color: #e0e0e0;
+    }
+    strong {
+        color: #cccccc;
+    }
     </style>
 </head>
 <body>
@@ -36,78 +44,72 @@
     <div class="lang-ja">
         <h2>日本語 (Japanese)</h2>
 
-<p>Jun（以下、「当方」といいます。）は、提供するChrome拡張機能「PEQ for YouTube™」（以下、総称して「本拡張機能」といいます。）における利用者情報の取り扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます。）を定めます。</p>
+        <p>Jun（以下、「当方」といいます。）は、提供するChrome拡張機能「PEQ for YouTube™」（以下、「本拡張機能」といいます。）における利用者情報の取り扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます。）を定めます。</p>
 
-<h3>1. 収集する情報と利用目的</h3>
-<p>本拡張機能は、利用体験の向上のため、以下の設定情報を利用者のコンピュータ内に保存します。これらの情報に個人を特定する情報は一切含まれておりません。</p>
+        <h3>1. 収集する情報と利用目的</h3>
+        <p>本拡張機能は、その機能を提供・向上させるために、以下の情報を限定的な目的で利用します。</p>
 
-<ul>
-<li> イコライザーの各バンド設定（周波数、ゲイン、Q値など）</li>
-<li> プリアンプの設定値</li>
-<li> 利用者が作成・保存したプリセット情報</li>
-<li> その他、本拡張機能のUIに関する設定情報（マスターON/OFFの状態など）</li>
-</ul>
+        <p><strong>ウェブサイトのコンテンツ（音声データ）</strong><br>
+        YouTubeページ上のビデオプレーヤーから音声ストリームを取得します。これは、イコライザー効果を適用するという本拡張機能の中核的な機能のためにのみ使用されます。音声データが外部のサーバーに送信されたり、保存されたりすることはありません。</p>
 
-<p>これらの情報は、利用者が設定した内容を本拡張機能上で維持・再現することのみを目的として利用します。</p>
+        <p><strong>ウェブ履歴（閲覧中のページのURL）</strong><br>
+        ユーザーが現在閲覧しているウェブページのURL情報を一時的に利用します。これは、本拡張機能がYouTubeのウェブサイト上でのみ動作するように、現在地が対象ページであるかを判断するためにのみ使用されます。閲覧履歴が保存されたり、外部に送信されたりすることはありません。</p>
 
-<h3>2. 情報の第三者への提供</h3>
-<p>本拡張機能が保存するすべての情報は、利用者のコンピュータ（ローカルストレージ）内にのみ保存されます。当方を含む第三者のサーバーへこれらの情報が自動的に送信・提供されることは一切ありません。</p>
+        <p><strong>ユーザーのアクティビティ（操作情報）</strong><br>
+        本拡張機能のポップアップUI内でのクリック、ドラッグ、キーボード操作などの情報を利用します。これは、ユーザーによるイコライザー設定の変更や機能の制御を可能にするためにのみ使用されます。これらの操作情報がユーザーの行動を追跡する目的で記録されたり、外部に送信されたりすることはありません。</p>
 
-<h3>3. お問い合わせ</h3>
-<p>本ポリシーに関するご不明点などがございましたら、以下の連絡先までお問い合わせください。</p>
+        <p><strong>設定情報</strong><br>
+        ユーザーが設定したイコライザーのプリセットや各種設定は、ユーザーの利便性のために、<code>chrome.storage.local</code> APIを用いてブラウザ内にのみ保存されます。この情報が当方のサーバー等に送信されることはありません。</p>
 
-<p>連絡先:peq.youtube@outlook.com</p>
+        <h3>2. 情報の第三者への提供</h3>
+        <p>本拡張機能が取り扱うすべての情報は、利用者のコンピュータ（ブラウザ内）で処理・保存が完結します。当方を含む第三者のサーバーへこれらの情報が自動的に送信・提供されることは一切ありません。</p>
 
-<h3>4. プライバシーポリシーの変更</h3>
-<p>当方は、法令の変更等に伴い、本ポリシーを事前の予告なく変更することがあります。</p>
+        <h3>3. お問い合わせ</h3>
+        <p>本ポリシーに関するご不明点などがございましたら、以下の連絡先までお問い合わせください。<br>
+        <strong>連絡先:</strong> peq.youtube@outlook.com</p>
 
-<p>制定日: 2025年9月9日</p>
-<p>最終改定日: 2025年9月9日</p>
+        <h3>4. プライバシーポリシーの変更</h3>
+        <p>当方は、法令の変更等に伴い、本ポリシーを事前の予告なく変更することがあります。</p>
 
-        </div>
+        <p><strong>制定日:</strong> 2025年9月11日<br>
+        <strong>最終改定日:</strong> 2025年9月11日</p>
+    </div>
 
     <hr>
 
     <div class="lang-en">
         <h2>English</h2>
 
-<h3>Privacy Policy</h3>
+        <p>Jun ("the developer") establishes the following privacy policy ("this Policy") regarding the handling of user information in the Chrome extension "PEQ for YouTube™" ("this Extension").</p>
 
-<p>Jun ("the developer") establishes the following privacy policy ("this Policy") regarding the handling of user information in the Chrome extensions "PEQ for YouTube™" (collectively, "this Extension").</p>
+        <h3>1. Information We Collect and How We Use It</h3>
+        <p>To provide and improve its functionality, this Extension uses the following information for limited purposes:</p>
+        
+        <p><strong>Website Content (Audio Data)</strong><br>
+        We access the audio stream from the video player on YouTube pages. This is done solely to apply equalizer effects, which is the core function of this Extension. Audio data is never sent to or saved on external servers.</p>
 
-<h3>1. Information We Collect and How We Use It</h3>
+        <p><strong>Web History (Current Page URL)</strong><br>
+        We temporarily use the URL of the web page you are currently viewing. This is done only to determine if you are on a YouTube website, ensuring that the Extension functions exclusively on the intended site. Your browsing history is never saved or transmitted externally.</p>
 
-<p>To improve the user experience, this Extension saves the following settings information on the user's computer. This information does not contain any personally identifiable information:</p>
+        <p><strong>User Activity (Operational Information)</strong><br>
+        We use information such as clicks, drags, and keyboard inputs within the Extension's popup UI. This is used only to allow you to change equalizer settings and control the Extension's features. This operational information is not recorded to track user behavior and is never sent externally.</p>
 
-<ul>
-<li>Equalizer band settings (frequency, gain, Q value, etc.)</li>
+        <p><strong>Settings Information</strong><br>
+        Your equalizer presets and various settings are saved only within your browser using the <code>chrome.storage.local</code> API for your convenience. This information is never transmitted to our servers or any other third party.</p>
 
-<li>Preamp setting value</li>
+        <h3>2. Sharing of Information with Third Parties</h3>
+        <p>All information handled by this Extension is processed and stored entirely on the user's computer (within the browser). This information is never automatically transmitted or provided to any third-party servers, including those of the developer.</p>
 
-<li>Preset information created and saved by the user</li>
+        <h3>3. Contact Us</h3>
+        <p>If you have any questions about this Policy, you may contact us at:<br>
+        <strong>Contact:</strong> peq.youtube@outlook.com</p>
 
-<li>Other UI-related settings for this Extension (such as the master ON/OFF state)</li>
-</ul>
+        <h3>4. Changes to This Privacy Policy</h3>
+        <p>The developer may amend this Policy without prior notice in response to changes in laws and regulations or for other reasonable causes.</p>
 
-<p>This information is used solely for the purpose of maintaining and reproducing the user's settings within this Extension.</p>
-
-<h3>2. Sharing of Information with Third Parties</h3>
-
-<p>All information saved by this Extension is stored only on the user's computer (in local storage). This information is never automatically transmitted or provided to any third-party servers, including those of the developer.</p>
-
-<h3>3. Contact Us</h3>
-
-<p>If you have any questions about this Policy, you may contact us at:</p>
-
-<p>Contact:peq.youtube@outlook.com</p>
-
-<h3>4. Changes to This Privacy Policy</h3>
-
-<p>The developer may amend this Policy without prior notice in response to changes in laws and regulations or for other reasonable causes.</p>
-
-<p>Date of Establishment: September 9, 2025</p>
-<p>Last Revised: September 9, 2025</p>
-        </div>
+        <p><strong>Date of Establishment:</strong> September 11, 2025<br>
+        <strong>Last Revised:</strong> September 11, 2025</p>
+    </div>
 
 </body>
 </html>
